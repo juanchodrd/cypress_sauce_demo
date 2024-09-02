@@ -1,0 +1,17 @@
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Ignorar archivos de Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+
+
+# Ignorar otros archivos y carpetas de Node.js
+package-lock.json
+npm-debug.log
+.env
+
+# Ignorar ejemplos de cypress
+cypress/e2e/1-getting-started
+cypress/e2e/2-advanced-examples

@@ -1,0 +1,24 @@
+{
+  "name": "ecosistemas2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "cypress open",
+    "tests:development:carrefour": "npx cypress run --browser edge --env ENV=\"development\" --spec \"cypress/e2e/Ecosistemas/regresion.cy.js\"",
+    "tests:development:musimundo": "npx cypress run --browser edge --env ENV=\"development\" --spec \"cypress/e2e/Ecosistemas/regresion.cy.js\"",
+    "tests:staging:carrefour": "npx cypress run --browser edge --env ENV=\"staging\" --spec \"cypress/e2e/Ecosistemas/regresion.cy.js\"",
+    "tests:staging:musimundo": "npx cypress run --browser edge --env ENV=\"staging\" --spec \"cypress/e2e/Ecosistemas/regresion.cy.js\"",
+    "tests:production:carrefour": "npx cypress run --browser edge --env ENV=\"production\" --spec \"cypress/e2e/Ecosistemas/regresion.cy.js\"",
+    "tests:production:musimundo": "npx cypress run --browser edge --env ENV=\"production\",grepTags=\"@production\" --spec \"cypress/e2e/Ecosistemas/regresion.cy.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.3",
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "typescript": "^5.1.6"
+  }
+}

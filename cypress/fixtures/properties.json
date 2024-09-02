@@ -1,0 +1,8 @@
+{
+  "url_development": "https://ecosistemas-ar-assurance.dev.echonet/ecosistemas-carrefour/cardif-ecosistemas/",
+  "url_staging": "https://ecosistemas-ar-assurance.staging.echonet/ecosistemas-carrefour/cardif-ecosistemas/",
+  "url_production": "https://www.saucedemo.com",
+  "url_api_development": "https://internal-api-ar-assurance.dev.echonet/",
+  "url_api_staging": "https://internal-api-ar-assurance.staging.echonet/",
+  "url_api_production": "https://portalsocios-ar-assurance.is.echonet/"
+}
