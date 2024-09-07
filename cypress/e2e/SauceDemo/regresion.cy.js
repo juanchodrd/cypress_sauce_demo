@@ -1,9 +1,9 @@
 ///<reference types="cypress"/>
 import * as utils from "../../support/utils";
 import "../../support/commands";
-import LoginPage from "../../pages/LoginPage";
-import ProductsPage from "../../pages/ProductsPage";
-import DetailProductPage from "../../pages/DetailProductPage";
+import LoginPage from "../../support/pages/LoginPage";
+import ProductsPage from "../../support/pages/ProductsPage";
+import DetailProductPage from "../../support/pages/DetailProductPage";
 
 describe("Casos regresivos", function () {
   beforeEach(function () {
